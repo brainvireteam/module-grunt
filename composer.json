@@ -1,0 +1,79 @@
+{
+    "name": "brainvireteam/module-grunt",
+    "description": "Grunt Module",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "type": "magento2-component",
+    "extra": {
+        "map": [
+            [
+                "grunt/Gruntfile.js","grunt/Gruntfile.js"
+            ],
+            [
+                "grunt/package.json","grunt/package.json"
+            ],
+            [
+                "grunt/grunt/assets","grunt/grunt/assets"
+            ],
+            [
+                "grunt/grunt/configs/autoprefixer.json","grunt/grunt/configs/autoprefixer.json"
+            ],
+            [
+                "grunt/grunt/configs/clean.js","grunt/grunt/configs/clean.js"
+            ],
+            [
+                "grunt/grunt/configs/combo.js","grunt/grunt/configs/combo.js"
+            ],
+            [
+                "grunt/grunt/configs/concat.json","grunt/grunt/configs/concat.json"
+            ],
+            [
+                "grunt/grunt/configs/cssmin.json","grunt/grunt/configs/cssmin.json"
+            ],
+            [
+                "grunt/grunt/configs/eslint.js","grunt/grunt/configs/eslint.js"
+            ],
+            [
+                "grunt/grunt/configs/exec.js","grunt/grunt/configs/exec.js"
+            ],
+            [
+                "grunt/grunt/configs/imagemin.js","grunt/grunt/configs/imagemin.js"
+            ],
+            [
+                "grunt/grunt/configs/jscs.js","grunt/grunt/configs/jscs.js"
+            ],
+            [
+                "grunt/grunt/configs/less.js","grunt/grunt/configs/less.js"
+            ],
+            [
+                "grunt/grunt/configs/mage-minify.json","grunt/grunt/configs/mage-minify.json"
+            ],
+            [
+                "grunt/grunt/configs/path.js","grunt/grunt/configs/path.js"
+            ],
+            [
+                "grunt/grunt/configs/postcss.js","grunt/grunt/configs/postcss.js"
+            ],
+            [
+                "grunt/grunt/configs/replace.js","grunt/grunt/configs/replace.js"
+            ],
+            [
+                "grunt/grunt/configs/styledocco.json","grunt/grunt/configs/styledocco.json"
+            ],
+            [
+                "grunt/grunt/configs/usebanner.js","grunt/grunt/configs/usebanner.js"
+            ],
+            [
+                "grunt/grunt/configs/watch.js","grunt/grunt/configs/watch.js"
+            ],
+            [
+                "grunt/grunt/tasks","grunt/grunt/tasks"
+            ],
+            [
+                "grunt/grunt/tools","grunt/grunt/tools"
+            ]
+        ]
+    }
+}
